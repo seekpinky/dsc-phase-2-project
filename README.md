@@ -1,5 +1,4 @@
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-3/main/halfway-there.gif)
 
 ## Project Overview
 
@@ -25,10 +24,31 @@ Missing value also found in waterfront, yr_renovated, view is found. Missing val
 3 Linear Regression were performed for this analysis
 
 ### Baseline Method.
+Every factors from the data set were ised as predictors.
 
+R2 train score to .87
+R2 test score to .85
+
+### Linear Regression Method with VIF.
+Only 35 predictors is used for analyzing as Variance inflation factor reduce the multicollinary facor between factors.
+Criteia is VIF score <5.
+
+R2 train score to .69
+R2 test score to .66
+
+### Linear Regression Method with VIF with outliers removed. New data set is created with additional 3 cities column
+Outliers are removed for several predictors. Test_train split has to be performed to create another set of data: (x_train1, x_test1, y_train1, y_test1). Data cleaning and pre-processing are followed from the procedure above to create data. Also, 3 different column name seattle, kent, and  Bellevue by grouping the zipcode that they belong.
+
+R2 train score to .65
+R2 test score to .63
+
+### Comparison between home sale prices between Seattle, Kent, Belleube
 
 
 ### Recommendation
+ABC comapny budget should be able to fit the houses in Seattle. However, I would suggest they should look into property in Kent as houses are cheaper and nicer in Kent compare to Seattle.
+
+Rather focus on property itself as Square footage of the apartments interior living space, Square footage of the land space,Number of bedrooms and Number of bathrooms are top factors that correlated to the sellilng price.
 
 ### Next Step
 Further investigate the relationship between individual predictor and outcome as they may not have a linear relationship.
