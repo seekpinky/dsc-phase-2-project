@@ -42,8 +42,8 @@ Outliers are removed for several predictors. Test_train split has to be performe
 R2 train score to .65
 R2 test score to .63
 
-### Comparison between home sale prices between Seattle, Kent, Belleube
-
+### Comparison between home sale prices between Seattle, Kent, Belleuve
+Comparison of seattle , kent,  belleuve home price is shown here along w MSE, RMSE
 
 ### Recommendation
 ABC comapny budget should be able to fit the houses in Seattle. However, I would suggest they should look into property in Kent as houses are cheaper and nicer in Kent compare to Seattle.
